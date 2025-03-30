@@ -1,1 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+.navbar {
+  background-color: rgb(45, 47, 52);
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.logo {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.nav-options {
+  color: white;
+  margin-left: 15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-button {
+  background-color: rgb(45, 47, 52);
+  color:burlywood;
+  border-style: solid;
+  border-color: burlywood;
+  border-width: thin;
+
+}
+
+.login-container {
+  text-align: center;
+  color: black;
+}
+input[type="email"], input[type="password"] {
+
+  width: 60%;
+  border-style: solid;
+  border-width: thin;
+}
+.email {
+  color: black;
+  text-align: center;
+
+}
+
+.password {
+  color: black;
+  text-align: center;
+}
+.button {
+  text-align: center;
+}
+.login-button {
+  background-color: rgb(83, 144, 243);
+  color: white;
+  border-color: rgb(83, 144, 243);
+}
