@@ -10,18 +10,15 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .logo {
   color: white;
   font-size: x-large;
   font-weight: bold;
 }
-
 .nav-options {
   color: white;
   margin-left: 15px;
 }
-
 .search-container {
   display: flex;
   align-items: center;
@@ -32,15 +29,12 @@ body {
   border-style: solid;
   border-color: burlywood;
   border-width: thin;
-
 }
-
 .login-container {
   text-align: center;
   color: black;
 }
 input[type="email"], input[type="password"] {
-
   width: 60%;
   border-style: solid;
   border-width: thin;
@@ -48,9 +42,7 @@ input[type="email"], input[type="password"] {
 .email {
   color: black;
   text-align: center;
-
 }
-
 .password {
   color: black;
   text-align: center;
@@ -62,4 +54,23 @@ input[type="email"], input[type="password"] {
   background-color: rgb(83, 144, 243);
   color: white;
   border-color: rgb(83, 144, 243);
+}
+.back-results{
+  margin:auto;
+  background-color: gray;
+  color: orange;
+}
+.movie-available {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10%;
+}
+.movie-available img {
+  width: 30%;
+}
+.submit-button {
+  background-color: rgb(83, 144, 243);
+  color: white;
+  display: inline-block;
 }
